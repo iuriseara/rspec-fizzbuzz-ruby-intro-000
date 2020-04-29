@@ -3,13 +3,14 @@
 require_relative './fizzbuzz_spec.rb'
 
 def fizzbuzz(int)
-  if fizz_3 = fizzbuzz(3)
-    print "Fizz"
-  elsif fizz_5 = fizzbuzz(5)
-    print "Buzz"
-  elsif fizz_15 = fizzbuzz(15)
-    print "Fizzbuzz"
-  else fizz_4 = fizzbuzz(4)
-    print nil
-  end
-end
+  if "#{int}" % 15 == 0
+     "fizzbuzz"
+   elsif "#{int}" % 3 == 0
+     "fizz"
+   elsif "#{int}" % 5 == 0
+     "buzz"
+   else
+     "#{int}"
+   end
+
+ end
