@@ -4,11 +4,11 @@ require_relative './fizzbuzz_spec.rb'
 
 def fizzbuzz(int)
   if "#{int}" % 15 == 0
-     "fizzbuzz"
+     "Fizzbuzz"
    elsif "#{int}" % 3 == 0
-     "fizz"
+     "Fizz"
    elsif "#{int}" % 5 == 0
-     "buzz"
+     "Buzz"
    else
      "#{int}"
    end
