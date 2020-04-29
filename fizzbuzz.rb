@@ -2,6 +2,8 @@
 # See README.md for instructions on how to do this
 require './fizzbuzz_spec.rb'
 
-def fizzbuzz
-
+def fizzbuzz(int)
+  if int % 3 == 0
+    "Fizz"
+  end
 end
