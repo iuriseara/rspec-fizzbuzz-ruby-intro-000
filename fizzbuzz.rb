@@ -11,4 +11,5 @@ def fizzbuzz(int)
     print "Fizzbuzz"
   else fizz_4 = fizzbuzz(4)
     print nil
+  end
 end
